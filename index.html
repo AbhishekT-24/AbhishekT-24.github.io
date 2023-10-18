@@ -1,77 +1,65 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .content {
-            display: flex;
-            margin: 50px;
-        }
-        .text-section {
-            flex: 1;
-            padding: 20px;
-        }
-        .image-section {
-            flex: 1;
-            padding: 20px;
-            text-align: center;
-        }
-        .image-section img {
-            max-width: 80%;
-            border-radius: 10px;
-        }
-        .logo-section {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-        }
-        .logo-section img {
-            width: 60px; 
-        }
-    </style>
+    <title>Abhishek Tiwari's Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- If you want to add a CSS file for styling -->
 </head>
 <body>
     <header>
-        Your Page Name
+        <h1>Abhishek Tiwari's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="content">
-        <div class="text-section">
-            <!-- Add your text content here -->
-            <p>
-                Your introduction or about section.
-            </p>
-            <p>
-                Description about your work or research.
-            </p>
-            <p>
-                Any other information you want to display.
-            </p>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <!-- Project 1 -->
+        <div class="project-card">
+            <h3>Project Title 1</h3>
+            <p>Description of project 1. Briefly explain what the project is about, the technologies used, and any other relevant details.</p>
+            <a href="link_to_project1" target="_blank">View Project</a>
         </div>
-        <div class="image-section">
-            <img src="path-to-your-image.jpg" alt="Your Image Description">
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <h3>Project Title 2</h3>
+            <p>Description of project 2. You can continue adding as many projects as you like in this format.</p>
+            <a href="link_to_project2" target="_blank">View Project</a>
         </div>
+
+        <!-- ... add more project cards as needed ... -->
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            <span class="emoji">🔍</span> Data Scientist specializing in NLP & Deep Learning
+        <span class="emoji">🎓</span> MSc from CentraleSupélec & ESSEC
+        <span class="emoji">🛠️</span> Expertise in denoising pipelines, sentiment analysis & modern AI techniques
+        <span class="emoji">💡</span> Passionate about transforming complex data into actionable insights
+        <span class="emoji">📚</span> Continuously advancing the frontier of AI research and applications.
     </div>
-    <div class="logo-section">
-        <img src="path-to-logo1.jpg" alt="Logo Description 1">
-        <img src="path-to-logo2.jpg" alt="Logo Description 2">
-        <!-- Add more logos as needed -->
-    </div>
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            How people can reach you. This might include an email address, links to your LinkedIn, Twitter, or other social media profiles.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2023 Your Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
-
